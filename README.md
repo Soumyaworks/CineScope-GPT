@@ -2,6 +2,9 @@
 
 - Create ReactApp
 - Configured TailwindCSS
+- Routing of App
+- Login Form
+- Sign up form
 
 ## Features
 
