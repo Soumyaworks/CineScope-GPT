@@ -14,6 +14,10 @@
 - Created our Redux store with user slice
 - Implemented Sign out
 - Update profile 
+- Bugfix - sign up user display name and profile picture update
+- Bugfix - if the user is not logged in, redirect to login page, don't allow to enter browse page
+- Unsubsribed to the onauth state change callback
+- Add hardcoded files to the constants file
 - Fetch movies from TMDB
 
 
