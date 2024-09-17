@@ -18,7 +18,8 @@
 - Bugfix - if the user is not logged in, redirect to login page, don't allow to enter browse page
 - Unsubsribed to the onauth state change callback
 - Add hardcoded files to the constants file
-- Fetch movies from TMDB
+- Register TMDB API & create an app & get access token
+- Get data from TMDB now playing movies list API
 
 
 ## Features
