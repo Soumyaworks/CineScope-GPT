@@ -1,10 +1,21 @@
-# NetflixGPT
+# [CineScope-GPT](https://cinescope-gpt.web.app/)
 
 - Create ReactApp
 - Configured TailwindCSS
 - Routing of App
 - Login Form
 - Sign up form
+- Form validation
+- UseRef hooks
+- Firebase setup
+- Deploying app to prod
+- Create sign up user account in Firebase
+- Implement sign in user API
+- Created our Redux store with user slice
+- Implemented Sign out
+- Update profile 
+- Fetch movies from TMDB
+
 
 ## Features
 
