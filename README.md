@@ -33,6 +33,7 @@
 - Built movie list
 - TMDB CDN url
 - usePopularMovies custom hook
+- GPT search feature
 
 
 ## Features
