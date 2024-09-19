@@ -37,6 +37,13 @@
 - GPT search bar
 - Multi language feature in our app
 - Integrate GPT apis
+- GPT search api calls
+- Fetched GPT movie suggestions from TMDB
+- created gptSlice and added data
+- Reused movie list to make movie suggestion container
+- Memoization
+- Added .env file 
+- Adding keys to the .env file
 
 
 ## Features
@@ -52,6 +59,6 @@
         - Title and description
         - Movie suggestions
             - MovieLists * N
-- NetflixGPT
+- CineScope-GPT
     - Search Bar
     - Movie Suggestions
