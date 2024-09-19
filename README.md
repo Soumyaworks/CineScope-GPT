@@ -33,7 +33,10 @@
 - Built movie list
 - TMDB CDN url
 - usePopularMovies custom hook
-- GPT search feature
+- GPT search Page
+- GPT search bar
+- Multi language feature in our app
+- Integrate GPT apis
 
 
 ## Features
