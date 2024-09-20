@@ -26,6 +26,11 @@ const GptSearchBar = () => {
   const handleGptSearchClick = async () => {
     console.log(searchText.current.value);
     // Make an API call to GPT API and get Movie Results
+    // const { GoogleGenerativeAI } = require("@google/generative-ai");
+    // const googleAI = new GoogleGenerativeAI(openai);
+    // const geminiConfig = {temperature: 0.7, topP: 1.0};
+
+    // const model = googleAI.getGenerativeModel({ model: "gemini-1.5-flash", geminiConfig});
 
     const gptQuery =
       "Act as a Movie Recommendation system and suggest some movies for the query : " +
@@ -36,6 +41,8 @@ const GptSearchBar = () => {
       messages: [{ role: "user", content: gptQuery }],
       model: "gpt-3.5-turbo",
     });
+
+    // const gptResults = await model.generateContent(gptQuery);
 
     if (!gptResults.choices) {
       // TODO: Write Error Handling
